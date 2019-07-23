@@ -3,7 +3,7 @@ function addElementToBeginningOfArray(chocolateBars, i) {
   chocolateBars = ["foo", ...chocolateBars]
   return chocolateBars
 }
-function destructivelyAddElementToBeginningOfArray() {
+function destructivelyAddElementToBeginningOfArray(chocolateBars, i) {
   chocolateBars2 = ["foo", ...chocolateBars]
   return chocolateBars2
 }
