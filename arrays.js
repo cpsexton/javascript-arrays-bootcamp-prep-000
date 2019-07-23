@@ -7,9 +7,9 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, i) {
   chocolateBars.unshift("foo")
   return chocolateBars
 }
-function addElementToEndOfArray(,) {
-  
+function addElementToEndOfArray(chocolateBars, i) {
+  chocolateBars = [...chocolateBars, "foo"]
 }
-function destructivelyAddElementToEndOfArray(,) {
+function destructivelyAddElementToEndOfArray(chocolateBars, i) {
   
 }
