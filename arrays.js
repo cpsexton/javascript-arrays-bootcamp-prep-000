@@ -27,10 +27,10 @@ function removeElementFromBeginningOfArray(chocolateBars) {
   return chocolateBars
 }
 function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
-  chocolateBars.pop(3)
+  chocolateBars.pop()
   return chocolateBars
 }
 function removeElementFromEndOfArray(chocolateBars) {
-  chocolateBars = chocolateBars.pop(3)
+  chocolateBars.slice(0, chocolateBars.length - 1)
   return chocolateBars
 }
