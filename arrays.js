@@ -10,3 +10,6 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, i) {
 function addElementToEndOfArray(,) {
   
 }
+function destructivelyAddElementToEndOfArray(,) {
+  
+}
