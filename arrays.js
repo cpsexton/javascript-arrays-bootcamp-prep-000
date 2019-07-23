@@ -30,3 +30,7 @@ function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
   chocolateBars.pop()
   return chocolateBars
 }
+function removeElementFromEndOfArray(chocolateBars) {
+  chocolateBars = chocolateBars.pop()
+  return chocolateBars
+}
